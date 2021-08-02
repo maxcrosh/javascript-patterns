@@ -43,6 +43,28 @@ var fruits = ["Banana", "Apple", "Orange", "Strawberry"]
 var fruitsCopy = fruits.splice()
 
 /*
+Concatenate arrays
+*/
+var fruits = ["Banana", "Apple", "Orange", "Strawberry"]
+var vegetables = ["Potato", "Onion", "Garlic", "Cucumber"]
+var berries = ["Banana", "Apple", "Orange", "Strawberry"]
+
+var food = []
+food.concat(fruits, vegetables, berries)
+
+/*
+Expanding array of arrays using reduce function
+*/
+var flattened = [[0, 1], [2, 3], [4, 5]].reduce((a, b) => a.concat(b))
+
+/*
+Check if any of the array elements confirm statement
+*/
+const array = [1, 2, 3, 4, 5]
+const even = (element) => element % 2 === 0
+console.log(array.some(even))
+
+/*
 forEach
 
 forEach function runs callback for each item in array.
