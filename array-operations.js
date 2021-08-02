@@ -1,6 +1,48 @@
 // Array functions
 
 /*
+Add element to the end of array
+*/
+var fruits = ["Banana"]
+var newLength = fruits.push("Apple")
+
+/*
+Remove element from the end of array
+*/
+var fruits = ["Banana", "Apple"]
+var lastElement = fruits.pop()
+
+/*
+Remove first element from array
+*/
+var fruits = ["Banana", "Apple"]
+var firstElement = fruits.shift()
+
+/*
+Add element at the begining of array
+*/
+var fruits = ["Apple"]
+var newLength = fruits.unshift("Banana")
+
+/*
+Get index of item
+*/
+var fruits = ["Banana", "Apple"]
+var itemIndex = fruits.indexOf("Apple")
+
+/*
+Remove elements from index to index
+*/
+var fruits = ["Banana", "Apple", "Orange", "Strawberry"]
+var removedItems = fruits.splice(1, 2)
+
+/*
+Create array copy
+*/
+var fruits = ["Banana", "Apple", "Orange", "Strawberry"]
+var fruitsCopy = fruits.splice()
+
+/*
 forEach
 
 forEach function runs callback for each item in array.
