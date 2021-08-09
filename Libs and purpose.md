@@ -7,3 +7,4 @@
 | Electron  | building crossplatform desktop applications  |  https://www.electronjs.org/  |
 | three.js  | implement 3D graphics  |  https://threejs.org/  |
 | D3.js  | data visualization  |  https://d3js.org/  |
+| Axios  | Promise based HTTP client for the browser and node.js  |  https://axios-http.com/  |
